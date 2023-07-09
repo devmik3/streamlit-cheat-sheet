@@ -48,7 +48,7 @@ def cs_sidebar():
    
     image = Image.open('logomark_website.png')
 
-st.image(image, caption='Sunrise by the mountains')
+    st.image(image, caption='Sunrise by the mountains')
 
     st.sidebar.header('Streamlit cheat sheet')
 
