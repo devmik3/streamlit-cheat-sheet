@@ -39,16 +39,18 @@ def main():
 
 # Thanks to streamlitopedia for the following code snippet
 
-##def img_to_bytes(img_path):
-  ##  img_bytes = Path(img_path).read_bytes()
-    ##encoded = base64.b64encode(img_bytes).decode()
-    ##return encoded
+
+def img_to_bytes(img_path):
+    img_bytes = Path(img_path).read_bytes()
+    encoded = base64.b64encode(img_bytes).decode()
+    return encoded
+
 
 # sidebar
 
 def cs_sidebar():
 
-    #st.sidebar.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>](https://streamlit.io/)'''.format(img_to_bytes("logomark_website.png")), unsafe_allow_html=True)
+    st.sidebar.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>](https://streamlit.io/)'''.format(img_to_bytes("logomark_website.png")), unsafe_allow_html=True)
     st.sidebar.header('Streamlit cheat sheet')
 
     st.sidebar.markdown('''
