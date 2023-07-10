@@ -44,19 +44,11 @@ def img_to_bytes(img_path):
     encoded = base64.b64encode(img_bytes).decode()
     return encoded
 
-
 # sidebar
 
 def cs_sidebar():
 
-    header_html = "<img src='data:image/png;base64,{}' class='img-fluid' height=32>".format(
-    img_to_bytes("logomark_website.png")
-    )
-    st.sidebar.markdown(
-    header_html, unsafe_allow_html=True,
-    )
-
-    # st.sidebar.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>](https://streamlit.io/)'''.format(img_to_bytes("logomark_website.png")), unsafe_allow_html=True)
+    st.sidebar.markdown('''[<img src='data:image/png;base64,{}' class='img-fluid' width=32 height=32>](https://streamlit.io/)'''.format(img_to_bytes("logomark_website.png")), unsafe_allow_html=True)
     st.sidebar.header('Streamlit cheat sheet')
 
     st.sidebar.markdown('''
