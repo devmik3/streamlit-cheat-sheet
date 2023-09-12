@@ -24,7 +24,7 @@ from pathlib import Path
 import base64
 
 from streamlit.components.v1 import html
-my_html = f"<script>{https://cdn.botpress.cloud/webchat/v1/inject.js}</script>"
+my_html = f"<script>{"https://cdn.botpress.cloud/webchat/v1/inject.js"}</script>"
 
 # Initial page config
 
