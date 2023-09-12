@@ -29,7 +29,7 @@ my_html = f"<script>{https://cdn.botpress.cloud/webchat/v1/inject.js}</script>"
 # Initial page config
 
 st.set_page_config(
-     page_title='Streamlit cheat sheet',
+     page_title='Streamlit cheat sheet TEST',
      layout="wide",
      initial_sidebar_state="expanded",
 )
