@@ -23,6 +23,9 @@ import streamlit as st
 from pathlib import Path
 import base64
 
+from streamlit.components.v1 import html
+my_html = f"<script>{https://cdn.botpress.cloud/webchat/v1/inject.js}</script>"
+
 # Initial page config
 
 st.set_page_config(
@@ -30,6 +33,8 @@ st.set_page_config(
      layout="wide",
      initial_sidebar_state="expanded",
 )
+html(my_html)
+
 
 def main():
     cs_sidebar()
