@@ -8,20 +8,8 @@ components.html(
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-<script>
-  window.botpressWebChat.init({
-      "composerPlaceholder": "Chat with bot",
-      "botConversationDescription": "This AI chatbot was built surprisingly fast by DevMik",
-      "botId": "6b9a9471-b002-429d-90cd-a0092a64ed1e",
-      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-      "messagingUrl": "https://messaging.botpress.cloud",
-      "clientId": "6b9a9471-b002-429d-90cd-a0092a64ed1e",
-      "lazySocket": true,
-      "frontendVersion": "v1",
-      "useSessionStorage": true
-  });
-</script>
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/6b9a9471-b002-429d-90cd-a0092a64ed1e/webchat/config.js" defer></script>
 
     <div id="accordion">
       <div class="card">
